@@ -1,0 +1,5 @@
+hostnamectl set-hostname puppet-master
+apt install puppetmaster -y
+puppet --version
+service puppetmaster start
+service puppetmaster status
