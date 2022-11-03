@@ -1,0 +1,6 @@
+import os
+x = os.getenv("a")
+y = os.getenv("b")
+a=int(x)
+b=int(y)
+print(a+b)
